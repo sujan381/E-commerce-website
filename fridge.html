@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SK Online Shopping</title>
+  <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    .menu
+    {
+      width: 100%;
+      position: fixed;
+      background-color: orange;
+      overflow: hidden;
+      padding: 7px;
+    }
+    .nav ul
+    {
+      list-style: none;
+      font-size: 1.2em;
+    }
+    .nav ul li
+    {
+      float: left;
+      margin-top: 1%;
+    }
+    .nav ul li a
+    {
+      text-decoration: none;
+      margin: 25px;
+      color: black;
+      font-family: Arial;
+    }
+    .nav ul li a:hover
+    {
+      color: crimson;
+      text-decoration: underline;
+      font-family: 1.2em;
+    }
+    #a
+    {
+      border-radius: 50px;
+    }
+    #b
+    {
+      margin-top: 45px;
+    }
+    .column {
+  float: left;
+  width: 23%;
+  padding: 10px;
+  height: 480px; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body  style="background-color: white;">
+  <div class="menu">
+    <div class="nav">
+    <ul>
+    <li><a href="Home.html"><img src="Icon.png" width="100" height="70" id="a"></a></li>
+    <li id="b"><a href="men.html">MEN</a></li>
+    <li id="b"><a href="women.html">WOMEN</a></li>
+    <li id="b"><a href="kids.html">KIDS</a></li>
+    <li id="b"><a href="house.html">HOME & LIVING</a></li>
+    <li id="b"><a href="offers.html">OFFERS</a></li>
+    <li id="b"><input type="text" name="search" placeholder="Search for products, brands" style="width: 230px;"></li>
+    <li id="b"><a href="search.html" style="margin-left: 1px;"><input type="submit" name="search" value="Search"style="width: 65px;color: black;background-color: #FFE328;border-radius: 10px;"></a></li>
+    <li class="w3-xxxlarge" id="b"><a href="profile.html"><i class="glyphicon glyphicon-user"></i> Profile</a></li>
+    <li id="b"><a href="cart.html"><i class="fa fa-bookmark-o" style="font-size: 26px"></i>Wishlist</a></li>
+    <li id="b"><a href="cart.html"><i class="fa fa-shopping-bag" style="font-size:26px;"></i>Bag</a></li>
+    </ul>
+    </div>
+</div>
+<div>
+<marquee style="margin-top: 6.5%;background-color: black;color: yellow;position: fixed;letter-spacing: 0.3em;font-size: 1.6em;font-family: Arial;padding: 10px;">Welcome to Online SK Shopping Mall !! Get 100% up to 200 by using upi Transfer T&C apply</marquee>
+<img src="all0.jpg" style="margin-top:11%;width: 100%; height: 400px" />
+</div>
+<h2 style="margin-top: 40px;margin-left: 20px;  color: red;"><b>BIGGEST DEALS ON TOP BRANDS</b>
+</h2>
+
+<div class="row">
+  <div class="column" style="">
+    <img src="fridge1.jpg" style="margin-left: 30px;height: 300px;margin-top: 5%;">
+    <h5 style="margin-left: 40px;"><b>Samsung 253L 3 Star Inverter Frost Free Double Door Refrigerator (RT28T3483S8/HL, Elegant Inox)<br><span style="color: red;margin-left: 70px;">₹22,799/-</span></b></h5>
+<button style="margin-left:140px;background-color: orange;padding: 5px;color: #fff;" onclick="addtocart();">Add to cart</button>
+  </div>
+  <div class="column" style="margin-left: 30px;">
+    <img src="fridge2.jpg" style="margin-left: 30px;height: 300px;margin-top: 5%;"><br>
+    <h5 style="margin-left: 40px;"><b>Whirlpool 200 L 4 Star Inverter Direct-Cool Single Door Refrigerator (215 ICEMAGIC PRO PRM 4S INV, Sapphire Mulia)<br><br><span style="color: red;margin-left: 70px;">₹14,699/-/-</span></b></h5><br>
+<button style="margin-left:140px;background-color: orange;padding: 5px;color: #fff;" onclick="addtocart();">Add to cart</button>
+  </div>
+  <div class="column" style="margin-left: 30px;">
+    <img src="fridge3.jpg" style="margin-left: 30px;height: 300px;margin-top: 5%;">
+    <h5 style="margin-left: 40px;"><b>Godrej 190 L 2 Star Direct-Cool Single Door Refrigerator (RD 1902 EW 23 STL WN, Steel Wine)<br><span style="color: red;margin-left: 70px;">₹10,999/-/-</span></b></h5>
+<button style="margin-left:140px;background-color: orange;padding: 5px;color: #fff;" onclick="addtocart();">Add to cart</button>
+  </div>
+  <div class="column" style="margin-left: 30px;">
+    <img src="fridge4.jpg" style="margin-left: 30px;height: 300px;margin-top: 5%;">
+    <h5 style="margin-left: 40px;"><b>Haier 195 L 4 Star Direct-Cool Single-Door Refrigerator (HED- 20CFDS, Dazzle Steel)<br><span style="color: red;margin-left: 70px;">₹12,999/-/-</span></b></h5>
+<button style="margin-left:140px;background-color: orange;padding: 5px;color: #fff;" onclick="addtocart();">Add to cart</button>
+  </div>
+  <div class="column" style="margin-left: 30px;margin-top: 25px;">
+    <img src="fridge5.jpg" style="margin-left: 30px;height: 300px;margin-top: 5%;">
+    <h5 style="margin-left: 40px;"><b>
+Godrej 30 L Qube Personal Cooling Solution<br><span style="color: red;margin-left: 70px;">₹5,499/-</span></b></h5>
+<button style="margin-left:140px;background-color: orange;padding: 5px;color: #fff;" onclick="addtocart();">Add to cart</button>
+  </div>
+  <div class="column" style="margin-left: 2px;margin-top: 25px;">
+    <img src="fridge6.jpg" style="margin-left: 30px;height: 300px;margin-top: 5%;">
+    <h5 style="margin-left: 40px;"><b>Whirlpool 215 L 5 Star Inverter Direct-Cool Single Door Refrigerator (230 IMPRO PRM 5S INV ALPHA STEEL, Alpha Steel)<br><span style="color: red;margin-left: 70px;">₹16,899/-/-</span></b></h5>
+<button style="margin-left:140px;background-color: orange;padding: 5px;color: #fff;" onclick="addtocart();">Add to cart</button>
+  </div>
+  <div class="column" style="margin-left: 30px;margin-top: 25px;">
+    <img src="fridge7.jpg" style="margin-left: 30px;height: 300px;margin-top: 5%;">
+    <h5 style="margin-left: 40px;"><b>Samsung 192 L 2 Star Direct Cool Single Door Refrigerator (RR19T241BSE/NL, Elective Silver)<br><span style="color: red;margin-left: 70px;">₹11,499/-</span></b><br></h5>
+<button style="margin-left:140px;background-color: orange;padding: 5px;color: #fff;" onclick="addtocart();">Add to cart</button>
+  </div>
+  <div class="column" style="margin-left: 30px;margin-top: 25px;">
+    <img src="fridge8.jpg" style="margin-left: 30px;height: 300px;margin-top: 5%;">
+    <h5 style="margin-left: 40px;"><b>Haier 181 L 2 Star Direct-Cool Single Door Refrigerator (HED-1812BKS-E, Black Brushline)<br><span style="color: red;margin-left: 70px;">₹9,499/-</span></b></h5>
+<button style="margin-left:140px;background-color: orange;padding: 5px;color: #fff;" onclick="addtocart();">Add to cart</button>
+  </div>
+</div>
+<div class="container" style="background-color: #708898;width: 100%;margin-right: 35%;margin-top: 3%;">
+<div class="last" style="width:30%;float: left;">
+<p style="text-align: center;font-size: 1.3em;"><a href="#Top" style="color:black;text-decoration: none;">Back to top</a></p>
+<p style="margin-left: 13%;font-size: 1.3em"><strong>Get to Know Us</strong></p>
+  <ul style="list-style: none;">
+    <li ><a href="#" style="color: black;font-size: 1.3em;">About us</a></li>
+    <li><a href="#" style="color: black;font-size: 1.3em;">Careers</a></li>
+    <li><a href="#" style="color: black;font-size: 1.3em;">Press Releases</a></li>
+    <li><a href="#" style="color: black;font-size: 1.3em;">Amazon Cares</a></li>
+    <li><a href="#" style="color: black;font-size: 1.3em;">Gift a Smile</a></li>
+  </ul>
+</div>
+<div class="last1" style="width: 40%;margin-left: 45%;float: center;overflow: hidden;padding: 35px;">
+  <p style="font-size: 1.3em;"><b>Contact me:</b></p>
+  <p style="font-size: 1.3em;">
+      26/951,<br>
+      Mittamadi street,<br>
+      Proddatur,Y.S.R district<br>
+      516360<br>
+  </p>
+</div>
+</div>
+<p style="background-color: #BA6C6C;padding: 5px;text-align: center;color: #4A4848;font-size: 1.3em;">Follow us on @Instagram  @Facebook  @twitter</p>
+<script type="text/javascript">
+  function addtocart()
+  {
+    window.alert("Successfully added 1 item to the cart");
+  }
+</script>
+</body>
+</html>

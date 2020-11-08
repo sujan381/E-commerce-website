@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SK Online Shopping</title>
+  <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    .menu
+    {
+      width: 100%;
+      position: fixed;
+      background-color: orange;
+      overflow: hidden;
+      padding: 7px;
+    }
+    .nav ul
+    {
+      list-style: none;
+      font-size: 1.2em;
+    }
+    .nav ul li
+    {
+      float: left;
+      margin-top: 1%;
+    }
+    .nav ul li a
+    {
+      text-decoration: none;
+      margin: 25px;
+      color: black;
+      font-family: Arial;
+    }
+    .nav ul li a:hover
+    {
+      color: crimson;
+      text-decoration: underline;
+      font-family: 1.2em;
+    }
+    #a
+    {
+      border-radius: 50px;
+    }
+    #b
+    {
+      margin-top: 45px;
+    }
+.row{
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 2%;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 460px;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+</style>
+</head>
+<body onload="startImageSlideShow()" style="background-color: white;">
+  <div class="menu">
+    <div class="nav">
+    <ul>
+    <li><a href="Home.html"><img src="Icon.png" width="100" height="70" id="a"></a></li>
+    <li id="b"><a href="men.html">MEN</a></li>
+    <li id="b"><a href="women.html">WOMEN</a></li>
+    <li id="b"><a href="kids.html">KIDS</a></li>
+    <li id="b"><a href="house.html">HOME & LIVING</a></li>
+    <li id="b"><a href="offers.html">OFFERS</a></li>
+    <li id="b"><input type="text" name="search" placeholder="Search for products, brands" style="width: 230px;"></li>
+    <li id="b"><a href="search.html" style="margin-left: 1px;"><input type="submit" name="search" value="Search"style="width: 65px;color: black;background-color: #FFE328;border-radius: 10px;"></a></li>
+    <li class="w3-xxxlarge" id="b"><a href="profile.html"><i class="glyphicon glyphicon-user"></i> Profile</a></li>
+    <li id="b"><a href="cart.html"><i class="fa fa-bookmark-o" style="font-size: 26px"></i>Wishlist</a></li>
+    <li id="b"><a href="cart.html"><i class="fa fa-shopping-bag" style="font-size:26px;"></i>Bag</a></li>
+    </ul>
+    </div>
+  </div>
+  <div>
+    <marquee style="margin-top: 6.5%;background-color: black;color: yellow;position: fixed;letter-spacing: 0.3em;font-size: 1.6em;font-family: Arial;padding: 10px;">Welcome to Online SK Shopping Mall !! Get 100% up to 200 by using upi Transfer T&C apply</marquee>
+  </div>
+  <a href="clothes.html"><img id="image" src="2.jpg" style="margin-top:11%;width: 100%; height: 400px" /></a>
+  <div class="row">
+    <a href="allpage.html" style="text-decoration: none;color: black;"><div class="column" style="background-color: #DCEAE8;margin-left: 2%;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Mobiles and accessories | Up to <span style="color: red;">40%</span> off</h3>
+    <img src="oneplus.jpg" style="margin-left: 18px;padding: 15px;">
+  </div>
+</a>
+<a href="laptop.html" style="text-decoration: none;color: black;">
+  <div class="column" style="background-color: #DCEAE8;margin-left: 3%;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Up to <span style="color: red;">60%</span> off | Electronics & accessories</h3>
+    <img src="lap.jpg" style="margin-left: 18px;padding: 15px;">
+  </div>
+</a>
+<a href="allpage.html" style="text-decoration: none;color: black;">
+  <div class="column" style="background-color: #DCEAE8;margin-left: 3%;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Samsung Galaxy M31  Starting at <span style="color: red;">15,499/-</span></h3>
+    <img src="sam.jpg" style="margin-left: 18px;padding: 15px;">
+  </div>
+</a>
+  <div class="column" style="background-color: #DCEAE8;margin-left: 2%;margin-top: 1.5%;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Under <span style="color: red;">₹599</span> | Pocket-friendly fashion</h3>
+    <img src="imap.jpg" style="margin-left: 5px;padding: 15px;" usemap="#map1">
+    <map name="map1">
+      <area shape="rect" coords="4,9,200,146" href="clothes.html">
+      <area shape="rect" coords="220,2,400,149" href="clothes.html">
+      <area shape="rect" coords="2,200,198,322" href="clothes.html">
+      <area shape="rect" coords="220,197,400,325" href="clothes.html">
+    </map>
+  </div>
+  <div class="column" style="background-color: #DCEAE8;margin-left: 3%;margin-top: 1.5%;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Up to <span style="color: red;">80%</span> off | Home & kitchen</h3>
+    <img src="imap1.jpg" style="margin-left: 18px;padding: 15px;" usemap="#map2">
+    <map name="map2">
+      <area shape="rect" coords="4,9,200,146" href="kitchen.html">
+      <area shape="rect" coords="220,2,400,149" href="kitchen.html">
+      <area shape="rect" coords="2,200,198,322" href="kitchen.html">
+      <area shape="rect" coords="220,197,400,325" href="kitchen.html">
+    </map>
+  </div>
+  <div class="column" style="background-color: #DCEAE8;margin-left: 3%;margin-top: 1.5%;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Up to <span style="color: red;">70%</span> off | Amazon Brands & more</h3>
+    <img src="imap3.jpg" style="margin-left: 18px;padding: 15px;" usemap="#map3">
+    <map name="map3">
+      <area shape="rect" coords="4,9,200,146" href="fridge.html">
+      <area shape="rect" coords="220,2,400,149" href="fridge.html">
+      <area shape="rect" coords="2,200,198,322" href="fridge.html">
+      <area shape="rect" coords="220,197,400,325" href="fridge.html">
+    </map>
+  </div>
+</div>
+<div>
+<img src="safe1.jpg" style="width: 90%;margin-left: 5%;margin-right: 5%;">
+</div>
+<div style="width: 98.5%;margin-top: 20px;margin-left: 65px;background-color: white;">
+  <h2 style="margin-left: 20px;">Great Indian Festival Specials</h2>
+  <a href="allpage.html"><img src="i1.jpg"></a>
+  <a href="clothes.html"><img src="i2.jpg"></a>
+  <a href="fridge.html"><img src="i3.jpg"></a>
+  <a href="kitchen.html"><img src="i4.jpg"></a>
+  <a href="laptop.html"><img src="i5.jpg"></a>
+  <a href="men.html"><img src="i6.jpg"></a>
+  <a href="women.html"><img src="i7.jpg"></a>
+</div>
+<a href="house.html" style="text-decoration: none;color: black;">
+  <div class="column" style="background-color: #DCEAE8;margin-left: 3%;margin-top: 30px;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Up to 70% off | Festive refresh for your home</h3>
+    <img src="pil.jpg" style="margin-left: 18px;padding: 15px;">
+  </div>
+</a>
+<a href="laptop.html" style="text-decoration: none;color: black;">
+  <div class="column" style="background-color: #DCEAE8;margin-left: 3%;margin-top: 30px;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Up to 50% off | Alexa devices & more</h3>
+    <img src="al.jpg" style="margin-left: 18px;padding: 15px;">
+  </div>
+</a>
+<a href="fridge.html" style="text-decoration: none;color: black;">
+  <div class="column" style="background-color: #DCEAE8;margin-left: 3%;margin-top: 30px;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Up to 70% off | Festive gifts from Amazon Launchpad</h3>
+    <img src="gif.jpg" style="margin-left: 18px;padding: 15px;">
+  </div>
+</a>
+<div  style="margin-bottom: 30px;">
+<img src="safe2.jpg" style="margin-top: 40px;width: 90%;margin-left: 5%;margin-right: 5%;">
+</div>
+<a href="clothes.html" style="text-decoration: none;color: black;">
+  <div class="column" style="background-color: #DCEAE8;margin-left: 3%;margin-top: 30px;margin-bottom: 30px;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Up to 80% off | Festive wear from Indian manufacturers
+</h3>
+    <img src="fes.jpg" style="margin-left: 18px;padding: 15px;">
+  </div>
+</a>
+<a href="clothes.html" style="text-decoration: none;color: black;">
+  <div class="column" style="background-color: #DCEAE8;margin-left: 3%;margin-top: 30px;margin-bottom: 30px;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Up to 75% off | Fashion & beauty
+</h3>
+    <img src="bea.jpg" style="margin-left: 18px;padding: 15px;">
+  </div>
+</a>
+<a href="allpage.html" style="text-decoration: none;color: black;">
+  <div class="column" style="background-color: #DCEAE8;margin-left: 3%;margin-top: 30px;margin-bottom: 30px;">
+    <h3 style="font-family: Arial;font-weight: bold;margin-left:40px;width: 80%;">Up to 40% off | Gift top mobiles and accessories
+</h3>
+    <img src="never.jpg" style="margin-left: 18px;padding: 15px;">
+  </div>
+</a>
+<div style="width: 98.5%;margin-top: 10%;margin-left: 65px;background-color: white;">
+  <h2 style="margin-left: 20px;">Shop deals in top categories</h2>
+  <a href="allpage.html"><img src="j1.jpg"></a>
+  <a href="laptop.html"><img src="j2.jpg"></a>
+  <a href="fridge.html"><img src="j3.jpg"></a>
+  <a href="kitchen.html"><img src="j4.jpg"></a>
+  <a href="house.html"><img src="j5.jpg"></a>
+  <a href="clothes.html"><img src="j6.jpg"></a>
+  <a href="laptop.html"><img src="j7.jpg"></a>
+</div>
+<img src="a.jpg" style="margin-top: 30px;margin-bottom: 15px;">
+<img src="b.jpg" style="margin-top: 20px;margin-bottom: 15px;">
+<img src="c.jpg" style="margin-top: 20px;margin-bottom: 15px;">
+<img src="d.jpg" style="margin-top: 20px;margin-bottom: 15px;">
+
+<div class="container" style="background-color: #708898;width: 100%;margin-right: 35%;">
+<div class="last" style="width:30%;float: left;">
+<p style="text-align: center;font-size: 1.3em;"><a href="#Top" style="color:black;text-decoration: none;">Back to top</a></p>
+<p style="margin-left: 13%;font-size: 1.3em"><strong>Get to Know Us</strong></p>
+  <ul style="list-style: none;">
+    <li ><a href="#" style="color: black;font-size: 1.3em;">About us</a></li>
+    <li><a href="#" style="color: black;font-size: 1.3em;">Careers</a></li>
+    <li><a href="#" style="color: black;font-size: 1.3em;">Press Releases</a></li>
+    <li><a href="#" style="color: black;font-size: 1.3em;">Amazon Cares</a></li>
+    <li><a href="#" style="color: black;font-size: 1.3em;">Gift a Smile</a></li>
+  </ul>
+</div>
+<div class="last1" style="width: 40%;margin-left: 45%;float: center;overflow: hidden;padding: 35px;">
+  <p style="font-size: 1.3em;"><b>Contact me:</b></p>
+  <p style="font-size: 1.3em;">
+      26/951,<br>
+      Mittamadi street,<br>
+      Proddatur,Y.S.R district<br>
+      516360<br>
+  </p>
+
+
+</div>
+</div>
+    <p style="background-color: #BA6C6C;padding: 5px;text-align: center;color: #4A4848;font-size: 1.3em;">Follow us on @Instagram  @Facebook  @twitter</p>
+<script type="text/javascript">
+    var intervalId;
+
+    function startImageSlideShow() 
+    {
+        intervalId = setInterval(setImage, 7000);
+    }
+    function setImage() 
+    {
+        var imageSrc = document.getElementById("image").getAttribute("src");
+        var currentImageNumber = imageSrc.substring(imageSrc.lastIndexOf("/") + 1,imageSrc.lastIndexOf("/") + 2);
+        if (currentImageNumber == 6) 
+        {
+            currentImageNumber = 0;
+        }
+        document.getElementById("image").setAttribute("src", ""  +     (Number(currentImageNumber) + 1) + ".jpg");
+    }
+</script>
+</body>
+</html>
